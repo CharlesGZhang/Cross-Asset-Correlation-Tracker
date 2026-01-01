@@ -1,4 +1,2 @@
 # Securities-Correlation
-Used data from yfinance to create correlation matrices of various securities to generate trade ideas. 
-
-These correlations can be used to trade using mean reversion strategies and more. 
+This project tracks rolling correlations between asset classes and flags statistically significant deviations from historical norms using z-score analysis. When correlations break from expected patterns, such as the classic equity-bond hedge relationship deteriorating, it creates actionable trading opportunities through mean reversion or signals regime changes in market structure.
